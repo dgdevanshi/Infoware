@@ -1,0 +1,74 @@
+{{!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+
+<body>
+<div class="modal fade">
+        <table class="table">
+        <thead>
+            <tr>      
+                <th scope="col">Name</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{#data}}
+            <tr>     
+                <td>{{name}}</td>
+                <td>{{phone}}</td>
+                <td>{{email}}</td>
+            </tr>
+        {{/data}}
+        </tbody>
+        </table>
+        <a href="./" style="color:black">BACK TO HOME PAGE</a> <br>
+</div>
+</body>
+</html> --}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+ 
+
+<!-- Modal -->
+      <div class="modal-body">
+      <table class="table">
+  <thead>
+    <tr>
+      
+      <th scope="col">User Name</th>
+      <th scope="col">Phone No</th>
+      <th scope="col">Email Id</th>
+    </tr>
+  </thead>
+  <tbody>
+      {{#data}}
+    <tr>
+     
+      <td>{{name}}</td>
+      <td>{{phone}}</td>
+      <td>{{email}}</td>
+    </tr>
+    {{/data}}
+   
+    
+  </tbody>
+</table>
+        </div>
+        <a href="./" style="color:black">BACK TO HOME PAGE</a> <br>
+    
+</body>
+</html>
